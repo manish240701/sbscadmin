@@ -1,0 +1,9 @@
+.gallery-individual-container {
+  max-width: 25%;
+}
+.gallery-container {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,4 @@
+.blogs-container-row {
+  display: flex;
+  flex-wrap: wrap;
+}

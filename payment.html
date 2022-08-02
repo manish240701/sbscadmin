@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_JBE0N9BxC4zCjz" async> </script> </form>
+</body>
+</html>
+<!-- 
+import "./Navbar.css";
+import { Route, Link, useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
+
+const Navbar = () => {
+  const [activeTab, setActiveTab] = useState("/");
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.pathname === "/") 
+      setActiveTab("/studentsdatabase");
+    else if (location.pathname === "/studentsdatabase")
+      setActiveTab("/studentsdatabase");
+    else if (location.pathname === "/coachesdatabase")
+      setActiveTab("/coachesdatabase");
+    else if (location.pathname === "/achievements")
+      setActiveTab("/achievements");
+    else if (location.pathname === "/athletichonors")
+      setActiveTab("/athletichonors");
+    else if (location.pathname === "/upcomingevents")
+      setActiveTab("/upcomingevents");
+    else if (location.pathname === "/circulars") setActiveTab("/circulars");
+    else if (location.pathname === "/blogs") setActiveTab("/blogs");
+    else if (location.pathname === "/gallery") setActiveTab("/gallery");
+  }, [location]);
+
+  return (
+    <Route>
+      <nav class="navbar navbar-dark fixed-top ">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <span className="light-white me-3">Welcome, Admin</span>
+        </div>
+      </nav>
+
+      <div
+        class="offcanvas offcanvas-start"
+        data-bs-scroll="true"
+        tabIndex="-1"
+        id="offcanvasWithBothOptions"
+        aria-labelledby="offcanvasWithBothOptionsLabel"
+        aria-controls="offcanvasWithBothOptions"
+      >
+        <div class="offcanvas-body mt-5">
+          <ul>
+            <Link to="/studentsdatabase" data-bs-dismiss="offcanvas">
+              <li
+                className={`${
+                  activeTab === "/studentsdatabase" ? "active" : " "
+                }`}
+                onclick={() => setActiveTab("/studentsdatabase")}
+              >
+                Students Database
+              </li>
+            </Link>
+            <Link to="/coachesdatabase" data-bs-dismiss="offcanvas">
+              <li
+                className={`${
+                  activeTab === "/coachesdatabase" ? "active" : " "
+                }`}
+                onclick={() => setActiveTab("/coachesdatabase")}
+              >
+                Coaches Database
+              </li>
+            </Link>
+            <Link to="/achievements" data-bs-dismiss="offcanvas">
+              <li
+                className={`${activeTab === "/achievements" ? "active" : " "}`}
+                onclick={() => setActiveTab("/achievements")}
+              >
+                Achievements
+              </li>
+            </Link>
+            <Link to="athletichonors" data-bs-dismiss="offcanvas">
+              <li
+                className={`${
+                  activeTab === "/athletichonors" ? "active" : " "
+                }`}
+                onclick={() => setActiveTab("/athletichonors")}
+              >
+                Athletic honors
+              </li>
+            </Link>
+            <Link to="upcomingevents" data-bs-dismiss="offcanvas">
+              <li
+                className={`${
+                  activeTab === "/upcomingevents" ? "active" : " "
+                }`}
+                onclick={() => setActiveTab("/upcomingevents")}
+              >
+                Upcoming Events
+              </li>
+            </Link>
+            <Link to="circulars" data-bs-dismiss="offcanvas">
+              <li
+                className={`${activeTab === "/circulars" ? "active" : " "}`}
+                onclick={() => setActiveTab("/circulars")}
+              >
+                Circulars
+              </li>
+            </Link>
+            <Link to="blogs" data-bs-dismiss="offcanvas">
+              <li
+                className={`${activeTab === "/blogs" ? "active" : " "}`}
+                onclick={() => setActiveTab("/blogs")}
+              >
+                Blogs
+              </li>
+            </Link>
+            <Link to="gallery" data-bs-dismiss="offcanvas">
+              <li
+                className={`${activeTab === "/gallery" ? "active" : " "}`}
+                onclick={() => setActiveTab("/gallery")}
+              >
+                Gallery
+              </li>
+            </Link>
+            <Link to="" data-bs-dismiss="offcanvas">
+              <button className="logout-btn">Log out</button>
+            </Link>
+          </ul>
+        </div>
+      </div>
+    </Route>
+  );
+};
+
+export default Navbar; -->

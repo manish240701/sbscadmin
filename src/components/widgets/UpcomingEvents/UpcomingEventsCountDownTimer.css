@@ -1,0 +1,28 @@
+.upcoming-events-count-down-timer-container {
+  margin-top: 10%;
+  height: 690px;
+  position: relative;
+}
+
+.count-down {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 15%;
+}
+
+.count-down-individual-container {
+  width: 25%;
+  text-align: center;
+  border: 3px solid #00e472;
+  padding: 90px 0;
+  margin: 0 25px;
+  border-radius: 15px;
+  color: white;
+}
+
+/* buttons */
+.count-down-buttons {
+  text-align: center;
+  margin-top: 100px;
+}

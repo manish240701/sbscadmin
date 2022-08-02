@@ -1,0 +1,16 @@
+.circulars-individual-container {
+  width: 70%;
+  margin: 0 auto;
+  background-color: rgb(11, 11, 11);
+  padding: 20px 20px 13px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.circulars-individual-container-row {
+  margin-top: 10px;
+}
+
+.circulars-title {
+  font-weight: 400;
+}

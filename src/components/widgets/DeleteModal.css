@@ -1,0 +1,9 @@
+.delete-modal-dialog {
+  margin-top: 50px;
+}
+
+.delete-modal-content {
+  height: 150px;
+  background-color: white;
+  color: black;
+}

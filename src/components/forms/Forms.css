@@ -1,0 +1,12 @@
+.individual-form-container{
+    max-width: 93%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+
+/*Achievements Form*/
+.achievement-divider,.gallery-divider{
+    width: 80%;
+    margin: 0 auto;
+}

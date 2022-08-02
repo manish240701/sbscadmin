@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,600;0,700;0,800;0,900;1,400&display=swap");
+
+body {
+  background-color: rgb(2, 2, 2);
+}
+
+.body-top-margin {
+  margin-top: 5%;
+}
+
+.green,
+.table-edit-icon,
+.edit-icon {
+  color: #00e472;
+}
+
+.white {
+  color: rgb(244, 236, 236);
+}
+
+.edit-icon {
+  font-size: 23px;
+  margin-left: 15px;
+}
+
+.admin-delete-btn,
+.admin-edit-btn {
+  outline: none;
+  font-weight: 500;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.admin-delete-btn {
+  border: 2px solid rgb(200, 47, 57);
+  background-color: transparent;
+  color: white;
+}
+
+.admin-delete-btn:hover {
+  border: 1px solid rgb(226, 8, 22);
+  background-color: rgb(226, 8, 22);
+  transition: 0.5s ease all;
+}
+
+/*Global edit btn*/
+.admin-edit-btn {
+  margin-right: 10px;
+  background-color: #00e472;
+  color: black;
+  border: 1px solid #00e472;
+}
+
+.admin-edit-btn:hover {
+  background-color: transparent;
+  border: 1px solid #00e472;
+  color: white;
+}
+
+.global-search-filter {
+  display: block;
+  width: 100%;
+}

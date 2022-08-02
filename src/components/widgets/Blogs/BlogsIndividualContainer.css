@@ -1,0 +1,12 @@
+.blogs-individual-container {
+  background-color: rgb(12, 12, 12);
+  padding: 25px 15px;
+  border-radius: 10px;
+  width: 17%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+.blogs-created-date {
+  color: rgb(181, 166, 166);
+}

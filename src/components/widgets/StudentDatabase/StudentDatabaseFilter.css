@@ -1,0 +1,19 @@
+.student-database-filter-name {
+  color: white;
+}
+
+.student-database-filter-input {
+  width: 100px;
+  border: 2px solid rgb(95, 61, 208);
+  padding: 3px 10px;
+  border-radius: 7px;
+}
+
+.payment-dashboard-btn {
+  background-image: url("../../assets/razorpay.jpg");
+  background-size: cover;
+  width: 9%;
+  height: 40px;
+  background-position: 65% 65%;
+  background-repeat: no-repeat;
+}

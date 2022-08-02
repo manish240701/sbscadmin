@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.393de84d.css",
+    "main.js": "/static/js/main.d094ef57.js",
+    "static/media/modalbackground.jpg": "/static/media/modalbackground.f594160d392d2661ea8f.jpg",
+    "static/media/login-background.jpg": "/static/media/login-background.c6cedf5a66c20203d4f3.jpg",
+    "static/media/addbutton.png": "/static/media/addbutton.553c53bf8d8966d22c90.png",
+    "index.html": "/index.html",
+    "main.393de84d.css.map": "/static/css/main.393de84d.css.map",
+    "main.d094ef57.js.map": "/static/js/main.d094ef57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.393de84d.css",
+    "static/js/main.d094ef57.js"
+  ]
+}

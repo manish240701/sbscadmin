@@ -1,0 +1,22 @@
+.achievementdetails {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin: 3% 3% !important;
+}
+
+.achievement-details-table {
+  width: 100%;
+  position: relative;
+  top: 10% !important;
+}
+
+th,
+td {
+  padding: 10px 10px;
+}
+
+.achievement-details-header {
+  color: white;
+  padding-top: 30px;
+}

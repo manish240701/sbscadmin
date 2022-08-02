@@ -1,0 +1,21 @@
+.global-search-bar-container {
+  text-align: center;
+}
+
+.global-search-bar {
+  width: 60%;
+  padding: 10px 20px 10px 30px;
+  border-radius: 7px;
+  font-size: 20px;
+}
+
+.global-search-bar::placeholder {
+  color: black;
+  font-weight: 400;
+}
+
+.global-search-bar:focus {
+  outline: none;
+  border: none;
+  padding: 12px 20px 12px 30px;
+}
